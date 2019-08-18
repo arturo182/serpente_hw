@@ -2,13 +2,14 @@
 
 A tiny and cheap CircuitPython development board, perfect for quick projects and prototyping!
 
+Comes in two versions: USB Type-C and bare PCB USB A plug.
+
 ## Hardware
 - ATSAMD21E18A Cortex-M0+ @ 48MHz, 256KB FLASH, 32KB RAM
 - 4MB Flash for storing Python files
 - 6 GPIOs
 - 250mA LDO
 - User-controlled RGB LED
-- USB Type-C receptacle
 
 ## GPIOs
 
