@@ -704,29 +704,29 @@ Text Label 6350 4000 0    50   ~ 0
 LED_G
 Text Label 6350 3900 0    50   ~ 0
 LED_B
-Text Label 7900 2900 0    50   ~ 0
-GPIO0
-Text Label 7900 3000 0    50   ~ 0
-GPIO1
-Text Label 7900 3100 0    50   ~ 0
-GPIO2
-Text Label 7900 3200 0    50   ~ 0
-GPIO3
-Text Label 7900 3300 0    50   ~ 0
-GPIO4
 Text Label 7900 3400 0    50   ~ 0
-GPIO5
-Text Label 6350 3000 0    50   ~ 0
 GPIO0
-Text Label 6350 2900 0    50   ~ 0
+Text Label 7900 3300 0    50   ~ 0
 GPIO1
-Text Label 6350 2800 0    50   ~ 0
+Text Label 7900 3200 0    50   ~ 0
 GPIO2
-Text Label 6350 2700 0    50   ~ 0
+Text Label 7900 3100 0    50   ~ 0
 GPIO3
-Text Label 6350 2600 0    50   ~ 0
+Text Label 7900 3000 0    50   ~ 0
 GPIO4
+Text Label 7900 2900 0    50   ~ 0
+GPIO5
 Text Label 6350 2500 0    50   ~ 0
+GPIO0
+Text Label 6350 2600 0    50   ~ 0
+GPIO1
+Text Label 6350 2700 0    50   ~ 0
+GPIO2
+Text Label 6350 2800 0    50   ~ 0
+GPIO3
+Text Label 6350 2900 0    50   ~ 0
+GPIO4
+Text Label 6350 3000 0    50   ~ 0
 GPIO5
 $Comp
 L power:GND #PWR013
@@ -765,7 +765,7 @@ FLASH_CS
 Text Label 6350 3700 0    50   ~ 0
 FLASH_MISO
 Text Notes 8850 6250 0    60   ~ 0
-SERCOM 3 is always SPI FLASH\n\nPossible configs:\nSERCOM 0: SPI\n    D0 - GPIO\n    D1 - GPIO\n    D2 - CS\n    D3 - MISO\n    D4 - SCK\n    D5 - MOSI\n    \nSERCOM 2: I2C\n    D0 - SCL\n    D1 - SDA\n    D2 - GPIO\n    D3 - GPIO\n    D4 - GPIO\n    D5 - GPIO\n\nSERCOM 0 or 2: UART\n    D0 or D4 - RX\n    D1 or D5 - TX\n    D2 - GPIO\n    D3 - GPIO\n\nSERCOM 0: UART, SERCOM 2: UART (2x UART)\n    D0 - RX2\n    D1 - TX2\n    D2 - GPIO\n    D3 - GPIO\n    D4 - RX0\n    D5 - TX0\n\nSERCOM 0: SPI, SERCOM 2: I2C\n    D0 - SCL\n    D1 - SDA\n    D2 - CS\n    D3 - MISO\n    D4 - SCK\n    D5 - MOSI\n\nSERCOM 0: SPI, SERCOM 2: UART\n    D0 - RX2\n    D1 - TX2\n    D2 - CS\n    D3 - MISO\n    D4 - SCK\n    D5 - MOSI\n\nSERCOM 0: UART, SERCOM 2: I2C\n    D5 - TX\n    D4 - RX\n    D3 - GPIO\n    D2 - GPIO\n    D1 - SDA\n    D0 - SCL\n\nAll GPIOs are PWM-enabled!\n
+SERCOM 3 is always SPI FLASH\n\nPossible configs:\nSERCOM 0: SPI\n    D5 - GPIO\n    D4 - GPIO\n    D3 - CS\n    D2 - MISO\n    D1 - SCK\n    D0 - MOSI\n    \nSERCOM 2: I2C\n    D5 - SCL\n    D4 - SDA\n    D3 - GPIO\n    D2 - GPIO\n    D1 - GPIO\n    D0 - GPIO\n\nSERCOM 0 or 2: UART\n    D1 or D5 - RX\n    D0 or D4 - TX\n    D3 - GPIO\n    D2 - GPIO\n\nSERCOM 0: UART, SERCOM 2: UART (2x UART)\n    D5 - RX2\n    D4 - TX2\n    D3 - GPIO\n    D2 - GPIO\n    D1 - RX0\n    D0 - TX0\n\nSERCOM 0: SPI, SERCOM 2: I2C\n    D5 - SCL\n    D4 - SDA\n    D3 - CS\n    D2 - MISO\n    D1 - SCK\n    D0 - MOSI\n\nSERCOM 0: SPI, SERCOM 2: UART\n    D5 - RX2\n    D4 - TX2\n    D3 - CS\n    D2 - MISO\n    D1 - SCK\n    D0 - MOSI\n\nSERCOM 0: UART, SERCOM 2: I2C\n    D5 - TX\n    D4 - RX\n    D3 - GPIO\n    D2 - GPIO\n    D1 - SDA\n    D0 - SCL\n\nAll GPIOs are PWM-enabled!
 NoConn ~ 6350 2100
 NoConn ~ 6350 2200
 NoConn ~ 6350 2300
