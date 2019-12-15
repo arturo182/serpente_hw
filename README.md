@@ -1,10 +1,10 @@
 # Serpente
 
-![](./img/both_boards.jpg)
+![](./img/three_boards.jpg)
 
 A tiny and cheap CircuitPython development board, perfect for quick projects and prototyping!
 
-Comes in two versions: USB Type-C and bare PCB USB A plug.
+Comes in three versions: Female USB Type-C, Male USB Type-C, and bare PCB USB A plug.
 
 # Technical details
 
@@ -16,7 +16,9 @@ Comes in two versions: USB Type-C and bare PCB USB A plug.
 - 3.3V logic and power
 - Powered either from USB or external source
 - User-controlled RGB LED
-- Mounting holes on the Serpente Type-C board
+- Breadboardable headers
+- Castellated edges, can be used as a module
+- Mounting holes on the Female Type-C board
 
 # Documentation
 

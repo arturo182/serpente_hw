@@ -2,4 +2,5 @@
   (lib (name Connector_USB_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Connector_USB_Extra.pretty)(options "")(descr ""))
   (lib (name Package_SON_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Package_SON_Extra.pretty)(options "")(descr ""))
   (lib (name serpente)(type KiCad)(uri ${KIPRJMOD}/serpente.pretty)(options "")(descr ""))
+  (lib (name Connector_PinHeader_2.54mm_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Connector_PinHeader_2.54mm_Extra.pretty)(options "")(descr ""))
 )
